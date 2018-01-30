@@ -5,9 +5,6 @@
 // This script creates guides relatively to document's size
 /* ========================================================= */
 
-// make sure active document exists
-if (!app.activeDocument) return;
-
 // save settings and customize environment 
 var startRulerUnits = app.preferences.rulerUnits,
 		startTypeUnits = app.preferences.typeUnits,
